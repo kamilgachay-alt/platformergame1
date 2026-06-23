@@ -450,7 +450,9 @@ function gameLoop() {
 
 // Start Game Function (called from HTML)
 function startGame() {
-    document.querySelector('.container').style.display = 'none';
+    const container = document.querySelector('.container');
+    container.style.display = 'none';
+    canvas.classList.add('active');
     canvas.style.display = 'block';
     initializeGame();
     gameLoop();
