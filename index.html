@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open World Platformer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎮 Open World Platformer</h1>
+            <p>An Epic Adventure Awaits</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>Welcome!</h2>
+                <p>Prepare to embark on an incredible journey through vast, breathtaking landscapes.</p>
+            </div>
+
+            <div class="section">
+                <h2>Game Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>🌍 Open World</h3>
+                        <p>Explore vast, seamless environments</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🎯 Platforming</h3>
+                        <p>Master precise controls and overcome obstacles</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button class="btn-primary" onclick="startGame()">Play Game</button>
+                <button class="btn-secondary" onclick="toggleInfo()">How to Play</button>
+            </div>
+
+            <canvas id="gameCanvas" width="800" height="600"></canvas>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
